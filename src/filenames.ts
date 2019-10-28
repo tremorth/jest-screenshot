@@ -57,8 +57,7 @@ export function getSnapshotPath(
 
 export function getReportDir(reportDir?: string) {
     return path.join(
-        process.cwd(),
-        reportDir || "jest-screenshot-report",
+        '../../../../../GuiTester/report/'
     );
 }
 
